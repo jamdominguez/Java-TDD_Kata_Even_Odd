@@ -1,8 +1,10 @@
 public class NumberChecker {
     public static String evenOrOdd(int[] numbers) {
-        for(int number : numbers){
-            if (number == 1) return "odd";
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
         }
-        return "even";
+        String result = sum%2 == 0 ? "even" : "odd";
+        return result;
     }
 }
