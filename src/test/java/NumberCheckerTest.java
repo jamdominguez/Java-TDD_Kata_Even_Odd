@@ -87,4 +87,10 @@ public class NumberCheckerTest {
         int[] numbers5 = {4, 5};
         assertEquals("odd", NumberChecker.evenOrOdd(numbers5));
     }
+
+    @Test(expected = NullPointerException.class)
+    public void nullEnterProduceNullPointerException(){
+        int[] numbers = null;
+        assertEquals("", NumberChecker.evenOrOdd(numbers));
+    }
 }
