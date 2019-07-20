@@ -4,7 +4,7 @@ public class NumberChecker {
         for (int number : numbers) {
             sum += number;
         }
-        String result = sum%2 == 0 ? "even" : "odd";
+        String result = sum % 2 == 0 ? "even" : "odd";
         return result;
     }
 }

@@ -35,7 +35,7 @@ public class NumberCheckerTest {
     }
 
     @Test
-    public void zeroPlusFourMustBeEven(){
+    public void zeroPlusFourMustBeEven() {
         int[] numbers = {0, 4};
         assertEquals("even", NumberChecker.evenOrOdd(numbers));
     }
@@ -89,7 +89,7 @@ public class NumberCheckerTest {
     }
 
     @Test(expected = NullPointerException.class)
-    public void nullEnterProduceNullPointerException(){
+    public void nullEnterProduceNullPointerException() {
         int[] numbers = null;
         assertEquals("", NumberChecker.evenOrOdd(numbers));
     }
