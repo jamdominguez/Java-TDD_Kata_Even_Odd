@@ -30,4 +30,4 @@ oddOrEven([0]) returns “even”
 oddOrEven([2, 5, 34, 6]) returns “odd”
 oddOrEven([0, -1, -5]) returns “even”<br>
 ___
-Now we must thinks in basic unit test to cover every cases.
+Now we must think in basic unit test to cover every cases.
