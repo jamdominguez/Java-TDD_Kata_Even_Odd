@@ -11,7 +11,7 @@ public class NumberCheckerTest {
     }
 
     @Test
-    public void zeroInputArrayIsEqualToZero() {
+    public void zeroMustBeEven() {
         int[] numbers = {0};
         assertEquals(NumberChecker.EVEN, NumberChecker.evenOrOdd(numbers));
     }
