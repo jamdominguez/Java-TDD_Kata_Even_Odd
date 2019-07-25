@@ -1,7 +1,8 @@
 # Java-TDD_Kata_Even_Odd
 Simple java local application, using Test Driven Development methodology.
 
-**Level: EASY**
+**Level: EASY**<br>
+**Status: Completed**
 
 Setup:
  - JDK 1.8.0_191
